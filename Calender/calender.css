@@ -1,0 +1,38 @@
+.boundry{
+   
+    border: 1px solid black;
+    width: 400px;
+    height: 350px;
+    margin-left: 500px;
+    
+   
+}
+.boundry ul li{
+    list-style: none;
+
+}
+.boundry h1{
+    font-size: 50px;
+    margin-left: 20px;
+  
+}
+.week{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background: silver;
+    padding: 5px;
+    margin:15px;
+    font-weight: 500;
+
+
+}
+.days{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); 
+    margin-right: 30px;
+}
+
+.days li{
+    padding: 10px; 
+    font-weight: 500;
+}
